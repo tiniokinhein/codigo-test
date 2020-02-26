@@ -1,0 +1,21 @@
+.bg-pic {
+    right: -1px;
+    top: -1px;
+}
+.bg-pic:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -1px;
+    top: -1px;
+    border: 36px solid transparent;
+    border-left-color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    .thank-wrap {
+        font-size: 1.3rem;
+    }
+}
